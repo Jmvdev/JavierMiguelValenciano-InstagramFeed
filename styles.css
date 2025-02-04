@@ -12,7 +12,6 @@
 
 .divHeader * {
     background-color: white;
-    border: 3px solid green;
     position: absolute;
     top: 50%;
     left: 36%;
@@ -46,6 +45,13 @@
 .publicationHeader {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
+}
+
+.publicationBottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 img {
